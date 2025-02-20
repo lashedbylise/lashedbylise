@@ -1,0 +1,86 @@
+body {
+    background-color: black;
+    color: #ff1493;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+header {
+    background-color: #ff1493;
+    color: black;
+    padding: 20px;
+    font-size: 24px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    background-color: black;
+    overflow: hidden;
+}
+
+nav ul li {
+    display: inline;
+    padding: 15px;
+}
+
+nav ul li a {
+    color: #ff1493;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+section {
+    padding: 40px;
+}
+
+button {
+    background-color: #ff1493;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #ff69b4;
+}
+
+form {
+    background-color: #222;
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+    color: white;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+#live-chat {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    text-align: left;
+}
+
+#chat-box {
+    background-color: #222;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    width: 250px;
+}
+
+footer {
+    background-color: #ff1493;
+    color: black;
+    padding: 10px;
+}

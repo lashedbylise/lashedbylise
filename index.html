@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LashedByLisé</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>LashedByLisé</h1>
+        <p>My lash game so strong, you can't go wrong</p>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#booking">Book Now</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <section id="home">
+        <h2>Welcome to LashedByLisé</h2>
+        <p>Luxury lash extensions that enhance your beauty.</p>
+    </section>
+    
+    <section id="services">
+        <h2>Our Services</h2>
+        <ul>
+            <li>Classic Lash Extensions</li>
+            <li>Volume Lash Extensions</li>
+            <li>Hybrid Lash Extensions</li>
+            <li>Refills & Touch-ups</li>
+        </ul>
+    </section>
+    
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <p>Showcasing our beautiful lash work.</p>
+        <!-- Add images here -->
+    </section>
+    
+    <section id="booking">
+        <h2>Book an Appointment</h2>
+        <p>Select a service and reserve your spot.</p>
+        <form>
+            <label for="service">Choose a Service:</label>
+            <select id="service">
+                <option>Classic Lash Extensions</option>
+                <option>Volume Lash Extensions</option>
+                <option>Hybrid Lash Extensions</option>
+                <option>Refills & Touch-ups</option>
+            </select>
+            <label for="date">Select Date:</label>
+            <input type="date" id="date">
+            <label for="time">Select Time:</label>
+            <input type="time" id="time">
+            <button type="submit">Reserve Now</button>
+        </form>
+    </section>
+    
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name">
+            <label for="email">Email:</label>
+            <input type="email" id="email">
+            <label for="message">Message:</label>
+            <textarea id="message"></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+    
+    <div id="live-chat">
+        <button id="chat-toggle">Chat with us</button>
+        <div id="chat-box" style="display: none;">
+            <p>Welcome! How can we help?</p>
+            <input type="text" placeholder="Type a message...">
+            <button>Send</button>
+        </div>
+    </div>
+    
+    <footer>
+        <p>&copy; 2025 LashedByLisé. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
